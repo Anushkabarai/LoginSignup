@@ -19,30 +19,7 @@ This project is a simple login and signup page implemented using HTML, CSS, Java
 4.Accessing the Application:
  Once the Tomcat server is running, access the application at http://localhost:8080/login-signup.
 
-#Project Structure
-css
 
-login-signup/
-│
-├── database/
-│   ├── userdb.sql
-│   └── README.md
-│
-├── src/
-│   ├── META-INF/
-│   ├── WEB-INF/
-│   └── db.properties
-│
-├── web/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   ├── signup.html
-│   ├── login.html
-│   └── README.md
-│
-├── login-signup.war
-└── README.md
 #database/: Contains the SQL script to create the necessary database and tables.
 #src/: Contains Java source files, including the database configuration properties file (db.properties).
 #web/: Contains HTML, CSS, JavaScript, and image files for the frontend.
